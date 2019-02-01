@@ -1,0 +1,68 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "gender"
+      ]
+    },
+    "action_first_name_slot": {
+      "slots": [
+        "first_name"
+      ]
+    },
+    "action_last_name_slot": {
+      "slots": [
+        "last_name"
+      ]
+    },
+    "action_age": {
+      "slots": [
+        "gender"
+      ]
+    },
+    "action_age_validation": {
+      "slots": [
+        "validation",
+        "age"
+      ]
+    },
+    "action_registration": {
+      "slots": []
+    },
+    "action_work": {
+      "slots": []
+    },
+    "action_first_row": {
+      "slots": [
+        "first_row"
+      ]
+    },
+    "action_second_row": {
+      "slots": [
+        "second_row"
+      ]
+    },
+    "action_third_row": {
+      "slots": [
+        "third_row"
+      ]
+    },
+    "action_transpose_matrix": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.2",
+  "python": "3.6.7",
+  "max_histories": [
+    5,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190201-110608"
+}

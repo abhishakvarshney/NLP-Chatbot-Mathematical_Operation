@@ -1,0 +1,541 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "long time no see"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "long time no see"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "I greet you"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "greet",
+        "text": "hello again"
+      },
+      {
+        "intent": "greet",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "a good day"
+      },
+      {
+        "intent": "greet",
+        "text": "afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hello hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "I greet you"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hi man"
+      },
+      {
+        "intent": "greet",
+        "text": "hello man"
+      },
+      {
+        "intent": "greet",
+        "text": "hey man"
+      },
+      {
+        "intent": "greet",
+        "text": "hi darling"
+      },
+      {
+        "intent": "greet",
+        "text": "hey darling"
+      },
+      {
+        "intent": "greet",
+        "text": "hello darling"
+      },
+      {
+        "intent": "greet",
+        "text": "hey babe"
+      },
+      {
+        "intent": "greet",
+        "text": "hi babe"
+      },
+      {
+        "intent": "greet",
+        "text": "hello babe"
+      },
+      {
+        "intent": "greet",
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hola bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hola man"
+      },
+      {
+        "intent": "greet",
+        "text": "hola darling"
+      },
+      {
+        "intent": "greet",
+        "text": "hola babe"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hola"
+      },
+      {
+        "intent": "greet",
+        "text": "Hola"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi man"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi man"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Man"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Darling"
+      },
+      {
+        "intent": "greet",
+        "text": "Hola Man"
+      },
+      {
+        "intent": "greet",
+        "text": "Hola Darling"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "HELLO"
+      },
+      {
+        "intent": "greet",
+        "text": "HELLO"
+      },
+      {
+        "intent": "greet",
+        "text": "HEY"
+      },
+      {
+        "intent": "greet",
+        "text": "HEY"
+      },
+      {
+        "intent": "greet",
+        "text": "HEY"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "info",
+        "text": "lkasl"
+      },
+      {
+        "intent": "info",
+        "text": "akdjsk"
+      },
+      {
+        "intent": "info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Male",
+            "entity": "gender"
+          }
+        ],
+        "text": "Male"
+      },
+      {
+        "intent": "info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Female",
+            "entity": "gender"
+          }
+        ],
+        "text": "Female"
+      },
+      {
+        "intent": "info",
+        "text": "no"
+      },
+      {
+        "intent": "info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "45",
+            "entity": "age"
+          }
+        ],
+        "text": "45"
+      },
+      {
+        "intent": "info",
+        "text": "ksdjkl"
+      },
+      {
+        "intent": "info",
+        "text": "fmkasjf"
+      },
+      {
+        "intent": "info",
+        "text": "Female"
+      },
+      {
+        "intent": "info",
+        "text": "ndasfkn"
+      },
+      {
+        "intent": "info",
+        "text": "45"
+      },
+      {
+        "intent": "row",
+        "text": "3 4 5"
+      },
+      {
+        "intent": "row",
+        "text": "4 5 6"
+      },
+      {
+        "intent": "row",
+        "text": "4 5 6"
+      },
+      {
+        "intent": "row",
+        "text": "4 5 6"
+      },
+      {
+        "intent": "row",
+        "text": "8 8 5"
+      },
+      {
+        "intent": "row",
+        "text": "4 5 6"
+      },
+      {
+        "intent": "row",
+        "text": "1 2 3"
+      },
+      {
+        "intent": "row",
+        "text": "1 2 3"
+      },
+      {
+        "intent": "row",
+        "text": "1 2 3"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

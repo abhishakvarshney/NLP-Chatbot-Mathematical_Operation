@@ -1,0 +1,93 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_lastname
+- utter_gender
+- utter_work
+- utter_firstrow
+- utter_secondrow
+- utter_thirdrow
+- action_first_name_slot
+- action_last_name_slot
+- action_age
+- action_age_validation
+- action_registration
+- action_work
+- action_first_row
+- action_second_row
+- action_third_row
+- action_transpose_matrix
+config:
+  store_entities_as_slots: true
+entities:
+- greet
+- first_name
+- last_name
+- age
+- gender
+- first_row
+- second_row
+- third_row
+forms: []
+intents:
+- info:
+    use_entities: true
+- row:
+    use_entities: true
+slots:
+  age:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  first_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  first_row:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  gender:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - male
+    - female
+  last_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  second_row:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  third_row:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  validation:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - valid
+    - invalid
+templates:
+  utter_firstrow:
+  - text: Enter the first row of the matrix(3 integers space seperated)
+  utter_gender:
+  - text: And your gender? - Male - Female
+  utter_greet:
+  - text: Hello! I am Elth. I am your personal assistant.\nBefore starting please
+      tell me your first name
+  utter_lastname:
+  - text: Before starting please tell me your last name.
+  utter_secondrow:
+  - text: Enter the second row of the matrix(3 integers space seperated)
+  utter_thirdrow:
+  - text: Enter the third row of the matrix(3 integers space seperated).
+  utter_work:
+  - text: Hello {first_name} {last_name}, How are you? For a sample of my work I can
+      show you how to make a transpose of a 3X3 matrix.

@@ -1,0 +1,139 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- long time no see
+- hello
+- hi
+- howdy
+- hey there
+- hey
+- long time no see
+- hello
+- hi
+- howdy
+- hey there
+- greetings
+- I greet you
+- hi there
+- hello there
+- lovely day isn't it
+- hello again
+- just going to say hi
+- hi there
+- a good day
+- afternoon
+- hello hi
+- heya
+- howdy
+- greetings
+- I greet you
+- heya
+- hi man
+- hello man
+- hey man
+- hi darling
+- hey darling
+- hello darling
+- hey babe
+- hi babe
+- hello babe
+- hi bot
+- hey bot
+- hello bot
+- hola bot
+- hola man
+- hola darling
+- hola babe
+- hi
+- hi
+- Hi
+- Hey
+- Hello
+- Hi
+- Hello
+- Hey
+- Hola
+- Hola
+- Heya
+- Hey
+- Hello
+- hi
+- hi man
+- Hi man
+- Hello Man
+- Hello Darling
+- Hola Man
+- Hola Darling
+- Hi
+- hi
+- Hi
+- hi
+- Hi
+- HI
+- HI
+- Hi
+- HI
+- HI
+- Hi
+- Hi
+- hi
+- hello
+- Hello
+- HELLO
+- HELLO
+- HEY
+- HEY
+- HEY
+- Heya
+- Howdy
+- Hi
+- Hey
+- hi
+- hi
+- hi
+- Heya
+- Hi
+- HI
+- HI
+- Hi
+- Hi
+- Hi
+- Hi
+- Hi
+- Hi
+- Hi
+
+## intent:info
+- lkasl
+- akdjsk
+- [Male](gender)
+- [Female](gender)
+- no
+- [45](age)
+- ksdjkl
+- fmkasjf
+- Female
+- ndasfkn
+- 45
+- jasdh
+- dsfamlk;l
+- [Male](gender:male)
+- 45
+
+## intent:row
+- 3 4 5
+- 4 5 6
+- 4 5 6
+- 4 5 6
+- 8 8 5
+- 4 5 6
+- 1 2 3
+- 1 2 3
+- 1 2 3
+- 1 2 4
+- 4 78 9
+- 1 5 9

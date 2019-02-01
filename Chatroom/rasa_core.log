@@ -1,0 +1,379 @@
+Rasa process starting
+Rasa process starting
+/usr/local/lib/python3.6/dist-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from '/home/stpl/Bot/BotPython/models/default/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from /home/stpl/Bot/BotPython/models/default/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/dist-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+b'Hi'
+b'Who are you?'
+b'Show me the games available'
+Encountered an exception while running action 'action_show_games'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'action_show_games' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 305, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'action_show_games' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+b'HI'
+b'showgames'
+b'show games'
+Encountered an exception while running action 'action_show_games'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'action_show_games' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 305, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'action_show_games' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Rasa process starting
+/usr/local/lib/python3.6/dist-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from '/home/stpl/Bot/BotPython/models/default/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from /home/stpl/Bot/BotPython/models/default/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/dist-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+b'Hi'
+b'show games'
+Action 'action_show_games' set a slot type 'games' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"games": null}' after the action.
+Rasa process starting
+Rasa process starting
+/usr/local/lib/python3.6/dist-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from '/home/stpl/Bot/Botpy_new/models/default/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from /home/stpl/Bot/Botpy_new/models/default/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/dist-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+b'Hi'
+b'Show games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'I want to play Mini Keno'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Failed to run custom action 'action_purchase'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_purchase'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 312, in run
+    response.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 937, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'Login'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Failed to run custom action 'action_login'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_login'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 312, in run
+    response.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 937, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'hi'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'username'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'I want to play games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Failed to run custom action 'action_purchase'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_purchase'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 312, in run
+    response.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 937, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'show me some games available'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'show games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'show games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'purchase ticket'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Failed to run custom action 'action_purchase'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_purchase'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 312, in run
+    response.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 937, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'Hi'
+b'How are you?'
+b'good'
+b'Hi'
+b'Hi Arena'
+b'show games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'Who are you?'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'Abey gadhe'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'Abey ghochu'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'mdsam'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'amcn,.'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'Hi'
+b'Hi'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'show games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'purchase ticket'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Failed to run custom action 'action_purchase'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_purchase'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 312, in run
+    response.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 937, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Rasa process starting
+/usr/local/lib/python3.6/dist-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from '/home/stpl/Bot/Botpy_new/models/default/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from /home/stpl/Bot/Botpy_new/models/default/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/dist-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+b'Hi'
+b'show game'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+b'show games'
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Failed to run custom action 'action_show_games'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_show_games'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 312, in run
+    response.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 937, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/processor.py", line 323, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/dist-packages/rasa_core/actions/action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'games'. Make sure you added all your slots to your domain file.
