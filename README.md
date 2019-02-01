@@ -1,3 +1,8 @@
+![screenshot from 2019-02-01 14-57-42](https://user-images.githubusercontent.com/35887568/52141645-5bd50c80-267c-11e9-910c-0da4ed83b1df.png)
+![screenshot from 2019-02-01 14-57-49](https://user-images.githubusercontent.com/35887568/52141647-5e376680-267c-11e9-9bdb-f52b75963f0e.png)
+![screenshot from 2019-02-01 14-57-57](https://user-images.githubusercontent.com/35887568/52141653-64c5de00-267c-11e9-8764-7d21d7b29717.png)
+![screenshot from 2019-02-01 14-57-59](https://user-images.githubusercontent.com/35887568/52141657-68596500-267c-11e9-8583-0f1c8e692b81.png)
+
 1) Download & link language model of Spacy for the english language
 ```
 >>> pip install rasa_nlu
