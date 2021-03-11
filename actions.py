@@ -9,7 +9,7 @@ from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet, FollowupAction
 
 logger = logging.getLogger(__name__)
-
+print("RASA")
 #TODO age validation,Transpose matrix
 class ActionFirstNameSlot(Action):
     def name(self):
